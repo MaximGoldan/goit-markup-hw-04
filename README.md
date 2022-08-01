@@ -99,3 +99,38 @@ background-color: #2196f3;
 /_ .item-soc-link:hover .item-soc-icon {
 fill: #ffffff;
 } \*/
+
+<a href="" class="header-icon">
+              <svg class="header-tel-icon" width="20" height="20">
+              <use href="./imag/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              </a>
+<a href="" class="header-icon">
+              <svg class="header-tel-icon" width="20" height="20">
+              <use href="./imag/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              </a>
+./imag/symbol-defs.svg#icon-envelope
+
+.benefits-item::before {
+display: block;
+content: '';
+height: 120px;
+margin-bottom: 30px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: #f5f4fa;
+border-radius: 4px;
+}
+.icon-antena::before {
+background-image: url(../imag/antenna.svg);
+}
+.icon-clok::before {
+background-image: url(../imag/clock.svg);
+}
+.icon-diagram::before {
+background-image: url(../imag/diagram.svg);
+}
+.icon-astronaut::before {
+background-image: url(../imag/astronaut.svg);
+}
